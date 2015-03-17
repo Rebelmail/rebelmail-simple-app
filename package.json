@@ -1,0 +1,26 @@
+{
+  "name": "rebelmail-simple-app",
+  "version": "0.1.0",
+  "description": "A simple Express app used for benchmarking",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RebelMail/rebelmail-simple-app.git"
+  },
+  "author": "RebelMail",
+  "bugs": {
+    "url": "https://github.com/RebelMail/rebelmail-simple-app/issues"
+  },
+  "homepage": "https://github.com/RebelMail/rebelmail-simple-app",
+  "dependencies": {
+    "express": "^4.12.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "supertest": "^0.15.0"
+  }
+}
