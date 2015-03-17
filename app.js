@@ -9,8 +9,14 @@ app.get('/', function(req, res) {
 
 app.get('/delay', function(req, res) {
   setTimeout(function() {
-    res.status(204).send();
-  }, 100);
+    setTimeout(function() {
+      setTimeout(function() {
+        setTimeout(function() {
+          res.status(204).send();
+        }, 25);
+      }, 25);
+    }, 25);
+  }, 25);
 });
 
 module.exports = app;
