@@ -4,7 +4,7 @@ var app = express();
 app.disable('x-powered-by');
 
 app.get('/', function(req, res) {
-  res.status(204).send();
+  res.send('Hello world!');
 });
 
 app.get('/delay', function(req, res) {
