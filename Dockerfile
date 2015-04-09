@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM iojs
 
 # Cache package.json
 ADD package.json /tmp/package.json
